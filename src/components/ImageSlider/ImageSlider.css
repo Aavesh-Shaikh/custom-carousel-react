@@ -1,0 +1,45 @@
+.slider_main_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.image-slider {
+  margin: auto;
+}
+.handle_btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  font-weight: 500;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+.dot {
+  background-color: rgb(218, 217, 217);
+  width: 30px;
+  height: 10px;
+  border-radius: 10px;
+  margin: 7px;
+}
+.selected_dot {
+  background-color: #199647;
+  width: 30px;
+  height: 10px;
+  border-radius: 10px;
+  transition: ease-in 0.3s;
+  -webkit-transition: ease-in 0.3s;
+  -moz-transition: ease-in 0.3s;
+  -ms-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+}
